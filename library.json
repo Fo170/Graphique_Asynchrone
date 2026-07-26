@@ -1,0 +1,19 @@
+{
+  "name": "Graphique_Asynchrone",
+  "version": "1.0.0",
+  "description": "Bibliothèque header-only pour graphiques Google Charts asynchrones sur ESP8266/ESP32. Sépare le template HTML/JS des données JSON pour une consommation mémoire réduite et un affichage temps réel sans rechargement.",
+  "keywords": ["google-charts", "chart", "graph", "async", "webserver", "esp8266", "esp32", "realtime"],
+  "authors": {
+    "name": "Olivier FOURNET",
+    "url": "https://github.com/Fo170"
+  },
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/Fo170/Graphique_Asynchrone",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fo170/Graphique_Asynchrone.git"
+  },
+  "headers": "Graphique_Asynchrone.h",
+  "frameworks": "arduino",
+  "platforms": ["espressif8266", "espressif32"]
+}
