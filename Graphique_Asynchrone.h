@@ -285,10 +285,10 @@ void GraphiqueAsync::addValue(int type, float valeur) {
 void GraphiqueAsync::incrementSample() { _sample++; }
 
 void GraphiqueAsync::calculerMinMax() {
-    int end = (_sample > 0) ? min((int)_sample, _nb_points) : _nb_points;
-    if (end == 0) return;
-
-    _x_min = _x_max = _seconds;
+    int end = _nb_points;
+    _x_min = 999999.0f;
+    _x_max = -999999.0f;
+    
     _y_min = _y_max = 0.0f;
     _y_min_axis[0] = _y_min_axis[1] =  999999.0f;
     _y_max_axis[0] = _y_max_axis[1] = -999999.0f;
@@ -305,10 +305,11 @@ void GraphiqueAsync::calculerMinMax() {
             if (v > _y_max_axis[axe]) _y_max_axis[axe] = v;
         }
     }
+    /*
     for (int a = 0; a < 2; a++) {
         if (_y_min_axis[a] ==  999999.0f) _y_min_axis[a] = 0.0f;
         if (_y_max_axis[a] == -999999.0f) _y_max_axis[a] = 0.0f;
-    }
+    }*/
 }
 
 float GraphiqueAsync::getValeur(int courbe, int index) const {
