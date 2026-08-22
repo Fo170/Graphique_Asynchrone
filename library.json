@@ -5,9 +5,10 @@
   "keywords": ["google-charts", "chart", "graph", "async", "webserver", "esp8266", "esp32", "realtime"],
   "authors": {
     "name": "Olivier FOURNET",
+    "email": "olivier.fournet@free.fr",
     "url": "https://github.com/Fo170"
   },
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-only",
   "homepage": "https://github.com/Fo170/Graphique_Asynchrone",
   "repository": {
     "type": "git",
