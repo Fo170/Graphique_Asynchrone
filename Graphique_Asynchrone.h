@@ -10,7 +10,7 @@
 
 
 // Version de la librairie (source UNIQUE — agrégée par liste_lib.h)
-#define __GRAPHIQUE_ASYNCHRONE_H_VERSION__ "1.0.0"
+#define __GRAPHIQUE_ASYNCHRONE_H_VERSION__ "1.0.1"
 #include <Arduino.h>
 
 // ============================================================
