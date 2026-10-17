@@ -8,6 +8,9 @@
 #ifndef GRAPHIQUE_ASYNC_H
 #define GRAPHIQUE_ASYNC_H
 
+
+// Version de la librairie (source UNIQUE — agrégée par liste_lib.h)
+#define __GRAPHIQUE_ASYNCHRONE_H_VERSION__ "1.0.0"
 #include <Arduino.h>
 
 // ============================================================
